@@ -16,7 +16,7 @@ let errorUrls;
 let pagesObj = [];
 
 /**
- * urlProcssed event: The event decides where to put the url that is being processed and also pushes the links
+ * urlProcessed event: The event decides where to put the url that is being processed and also pushes the links
  * in the queue for further processing. The event receives processedUrl and its linkedUrls and decides whether
  * the url belongs in the visitedUrls or skippedUrls list.
  */
